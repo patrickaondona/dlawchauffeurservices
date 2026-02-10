@@ -60,6 +60,9 @@ export const metadata: Metadata = {
       "Premium chauffeur-driven car services in Abuja for airport transfers, corporate travel, weddings, and events.",
     images: ["/images/hero-bg.avif"],
   },
+  icons: {
+    icon: "/images/dlaw-logo.jpeg",
+  },
 }
 
 export default function RootLayout({
