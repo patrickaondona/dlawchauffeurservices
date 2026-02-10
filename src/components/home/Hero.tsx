@@ -22,7 +22,7 @@ export default function Hero() {
             <span className="text-blue-400">Whenever You Need It</span>
           </h1>
 
-          <p className="mt-6 text-slate-300 text-lg max-w-xl font-dm-sans">
+          <p className="mt-6 text-slate-200 text-lg max-w-xl font-dm-sans">
             Experience the freedom of the open road with our premium fleet. From
             daily rentals to long-term leasing and chauffeured services.
           </p>
