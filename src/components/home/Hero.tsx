@@ -5,11 +5,11 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-neural-900 text-white">
       <div className="absolute inset-0">
         <img
-          className="w-full h-full object-cover opacity-40"
+          className="w-full h-full object-cover"
           src="/images/hero-bg.avif   "
           alt="Luxury car on road"
         />
-        <div className="absolute inset-0 bg-linear-to-r from-[#1e3a8a33] via-[#1e3a8a33] to-[#1e3a8a33]"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-[#1e3a8a4d] via-[#1e3a8a4d] to-[#1e3a8a4d]"></div>
       </div>
 
       <div className="relative container mx-auto px-6 py-24 gap-12 items-center">
