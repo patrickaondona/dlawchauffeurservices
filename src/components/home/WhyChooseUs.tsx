@@ -14,7 +14,7 @@ export default async function WhyChooseUs() {
             className="rounded-3xl object-cover h-full w-full shadow-xl"
           />
           <div className="absolute left-6 bottom-6 flex gap-4 font-dm-sans">
-              <p className="flex items-center justify-center bg-blue-600 w-15 h-15 text-2xl font-semibold rounded-full border-[3px] border-blue-500">4.9</p>
+              <p className="flex items-center justify-center bg-blue-600 w-15 h-15 text-2xl text-white font-semibold rounded-full border-[3px] border-blue-500">4.9</p>
             <div className="flex flex-col">
               <p className="text-lg text-white font-bold">
                 Customer Rating
