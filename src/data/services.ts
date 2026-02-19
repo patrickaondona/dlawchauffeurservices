@@ -7,6 +7,7 @@ export type Service = {
   description: string;
   cta: string;
   icon: IconType;
+  link: string;
 };
 
 export async function getServices(): Promise<Service[]> {
@@ -18,6 +19,7 @@ export async function getServices(): Promise<Service[]> {
         "Curated vehicle listings, transparent pricing, and guided purchase support.",
       cta: "View Inventory",
       icon: FaCarSide,
+      link: "https://wa.me/2348147229616"
     },
     {
       id: 2,
@@ -26,6 +28,7 @@ export async function getServices(): Promise<Service[]> {
         "Market insights, pricing strategy, and negotiation support for buyers and sellers.",
       cta: "Request Guidance",
       icon: FaHouse,
+      link: "#"
     },
     {
       id: 3,
@@ -34,6 +37,7 @@ export async function getServices(): Promise<Service[]> {
         "Curated listings, lease review, and move in planning for a smooth start.",
       cta: "Explore Options",
       icon: FaKey,
+      link: "#"
     },
     {
       id: 4,
@@ -42,6 +46,7 @@ export async function getServices(): Promise<Service[]> {
         "Personal styling, seasonal edits, and shopping strategy tailored to you.",
       cta: "Start Styling",
       icon: FaShirt,
+      link: "https://wa.me/message/W65O5OH7OQKHF1"
     },
   ];
 }

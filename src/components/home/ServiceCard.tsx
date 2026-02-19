@@ -1,4 +1,5 @@
 import type { Service } from "@/src/data/services";
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
 export default function ServiceCard({ service }: { service: Service }) {
@@ -10,13 +11,15 @@ export default function ServiceCard({ service }: { service: Service }) {
         <Icon className="h-5 w-5" aria-hidden="true" />
       </div>
       <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
-      <p className="text-slate-400 text-sm mb-6 font-dm-sans">{service.description}</p>
-      <a
-        href="https://wa.link/jrvww3"
+      <p className="text-slate-400 text-sm mb-6 font-dm-sans">
+        {service.description}
+      </p>
+      <Link
+        href={service.link}
         className="text-white font-medium text-sm cursor-pointer group-hover:text-blue-400 transition flex items-center font-dm-sans"
       >
         {service.cta} <FaArrowRight className="inline-block ml-2" />
-      </a>
+      </Link>
     </div>
   );
 }

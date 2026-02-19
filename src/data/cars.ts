@@ -27,28 +27,6 @@ export async function getCars(): Promise<Car[]> {
     },
     {
       id: 2,
-      name: "Toyota Land Cruiser 300 Series (LC300)",
-      category: "SUV",
-      price1: 400000,
-      price2: 200000,
-      image:
-        "/images/cars/car-2.jpeg",
-      seats: 7,
-      fuel: "Auto",
-    },
-    {
-      id: 3,
-      name: "Toyota Land Cruiser Prado 250 Series (LC250)",
-      category: "SUV",
-      price1: 400000,
-      price2: 200000,
-      image:
-        "/images/cars/car-3.jpeg",
-      seats: 7,
-      fuel: "Auto",
-    },
-    {
-      id: 4,
       name: "Toyota Camry (XV40 Generation)",
       category: "Sedan",
       price1: 120000,
@@ -59,7 +37,7 @@ export async function getCars(): Promise<Car[]> {
       fuel: "Auto",
     },
     {
-      id: 5,
+      id: 3,
       name: "Toyota Hiace (H300)",
       category: "Van / Minibus",
       price1: 300000,
@@ -68,6 +46,28 @@ export async function getCars(): Promise<Car[]> {
         "/images/cars/car-5.jpeg",
       seats: 16,
       fuel: "Auto/Manual",
+    },
+    {
+      id: 4,
+      name: "Toyota Land Cruiser 300 Series (LC300)",
+      category: "SUV",
+      price1: 400000,
+      price2: 200000,
+      image:
+        "/images/cars/car-2.jpeg",
+      seats: 7,
+      fuel: "Auto",
+    },
+    {
+      id: 5,
+      name: "Toyota Land Cruiser Prado 250 Series (LC250)",
+      category: "SUV",
+      price1: 400000,
+      price2: 200000,
+      image:
+        "/images/cars/car-3.jpeg",
+      seats: 7,
+      fuel: "Auto",
     },
   ];
 }

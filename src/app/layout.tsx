@@ -15,14 +15,14 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dlaw Chauffeur Services | Premium Chauffeur Services in Abuja",
+    default: "Dlaw Chauffeur Services | Premium Chauffeur Services in Nigeria",
     template: "%s | Dlaw Chauffeur Services",
   },
   description:
-    "Premium chauffeur-driven car services in Abuja for airport transfers, corporate travel, weddings, and events. Book a luxury ride with trusted professional drivers.",
+    "Premium chauffeur-driven car services in Nigeria for airport transfers, corporate travel, weddings, and events. Book a luxury ride with trusted professional drivers.",
   keywords: [
     "chauffeur services",
-    "Abuja chauffeur",
+    "Nigeria chauffeur",
     "airport transfers",
     "luxury car service",
     "corporate travel",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_NG",
-    title: "Dlaw Chauffeur Services | Premium Chauffeur Services in Abuja",
+    title: "Dlaw Chauffeur Services | Premium Chauffeur Services in Nigeria",
     description:
-      "Premium chauffeur-driven car services in Abuja for airport transfers, corporate travel, weddings, and events.",
+      "Premium chauffeur-driven car services in Nigeria for airport transfers, corporate travel, weddings, and events.",
     siteName: "Dlaw Chauffeur Services",
     images: [
       {
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dlaw Chauffeur Services | Premium Chauffeur Services in Abuja",
+    title: "Dlaw Chauffeur Services | Premium Chauffeur Services in Nigeria",
     description:
-      "Premium chauffeur-driven car services in Abuja for airport transfers, corporate travel, weddings, and events.",
+      "Premium chauffeur-driven car services in Nigeria for airport transfers, corporate travel, weddings, and events.",
     images: ["/images/hero-bg.avif"],
   },
   icons: {

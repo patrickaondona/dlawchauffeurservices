@@ -6,9 +6,9 @@ import CTA from "../components/home/CTA";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Premium Chauffeur Services in Abuja",
+  title: "Premium Chauffeur Services in Nigeria",
   description:
-    "Reserve luxury chauffeur-driven cars in Abuja for airport transfers, corporate travel, weddings, and special events.",
+    "Reserve luxury chauffeur-driven cars in Nigeria for airport transfers, corporate travel, weddings, and special events.",
 };
 
 export default function Home() {

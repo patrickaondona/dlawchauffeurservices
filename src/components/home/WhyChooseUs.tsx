@@ -9,8 +9,8 @@ export default async function WhyChooseUs() {
       <div className="container mx-auto px-6 grid gap-12 lg:grid-cols-2 items-center">
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-            alt="Luxury interior"
+            src="/images/dlaw-ceo.jpeg"
+            alt="Photo of CEO of Dlaw Chauffeur Services"
             className="rounded-3xl object-cover h-full w-full shadow-xl"
           />
           <div className="absolute left-6 bottom-6 flex gap-4 font-dm-sans">
@@ -19,7 +19,7 @@ export default async function WhyChooseUs() {
               <p className="text-lg text-white font-bold">
                 Customer Rating
               </p>
-              <p className="text-sm text-slate-300 tracking-widest font-semibold">Based on 1,000+ reviews</p>
+              <p className="text-sm text-blue-300 tracking-widest font-semibold">Based on 1,000+ reviews</p>
             </div>
           </div>
         </div>
